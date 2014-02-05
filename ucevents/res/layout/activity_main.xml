@@ -4,14 +4,15 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/blue"
     tools:context=".MainActivity" >
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/ic_launcher" />
+        android:contentDescription="@string/ucevents"
+        android:src="@drawable/logo" />
     
     <Button
         android:id="@+id/login"
@@ -26,7 +27,7 @@
         android:text="@string/signup" />
     
     <TextView 
-        android:id="@id/groupname"
+        android:id="@+id/groupname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
